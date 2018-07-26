@@ -4,7 +4,7 @@ Donate link: http://bib.ly/
 Tags: bible, link, reference
 Requires at least: 3.0
 Tested up to: 3.2.0
-Stable tag: 0.8.6
+Stable tag: 0.8.7
 
 Finds Bible references, creates a popup with the Biblical text and links users to a page where they choose their favorite website (YouVersion, BibleGateway).
 
@@ -41,16 +41,19 @@ View <a href="http://bib.ly/">bib.ly</a> for more information.
 
 == Changelog ==
 
+= 0.8.7 =
+* Assets load locally instead of from remote server to prevent mixed-content issues.
+
 = 0.8.6 =
 * assets now load async to prevent blocking
 
 = 0.7 =
 * settings panel
 
-= 0.4 = 
+= 0.4 =
 * Adds Biblical text in popups
 
-= 0.3 = 
+= 0.3 =
 * Initial Wordpress release
 
 == Upgrade Notice ==
